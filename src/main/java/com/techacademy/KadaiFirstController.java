@@ -52,7 +52,7 @@ public class KadaiFirstController {
         fullDate.set(yyyy, MM, dd);
 
         //yyyymmdd形式を曜日に変換する
-        return "実行結果：" + week[fullDate.get(Calendar.DAY_OF_WEEK)-1]; //-1も仕様
+        return week[fullDate.get(Calendar.DAY_OF_WEEK)-1]; //-1も仕様
 
     }
 }
